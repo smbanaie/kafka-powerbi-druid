@@ -6,7 +6,7 @@ import com.fasterxml.jackson.databind.SerializationFeature
 import com.fasterxml.jackson.databind.util.StdDateFormat
 import com.fasterxml.jackson.module.kotlin.registerKotlinModule
 
-val personsTopic = "persons2"
+val personsTopic = "persons"
 val personsAvroTopic = "persons-avro"
 val agesTopic = "ages"
 
