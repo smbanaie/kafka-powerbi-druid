@@ -42,7 +42,7 @@ class SimpleProducer(brokers: String) {
                 birthDate = faker.date().birthday()
             )
             logger.info("Generated a person: $fakePerson")
-            println("Generated a person: $fakePerson")
+//            println("Generated a person: $fakePerson")
 
             val fakePersonJson = jsonMapper.writeValueAsString(fakePerson)
             logger.debug("JSON data: $fakePersonJson")
